@@ -1,0 +1,114 @@
+@import url('https://js.arcgis.com/3.20/esri/css/main.css');
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.page-header {
+    color: whitesmoke;
+    background-color: #313332;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 100px;
+    padding: 20px;
+    height: 62px;
+}
+
+h4 {
+    font-family: 'UnifrakturCook', cursive;
+    width: 300px;
+    position: relative;
+    bottom: 10px;
+}
+
+h3 {
+    font-family: 'Sancreek', cursive;
+}
+
+label {
+    font-family: 'Sail', cursive;
+}
+
+.panel-heading {
+    color: whitesmoke;
+    background-color: #313332;
+    padding: 10px;
+}
+
+.savedBtn {
+    color: whitesmoke;
+    float: right;
+    position: relative;
+    bottom: 38px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.btn {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 20px
+}
+
+.routBtn {
+    color: whitesmoke;
+    float: right;
+    position: relative;
+    bottom: 51px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 28px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none !important;
+    border: .5px solid whitesmoke;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: whitesmoke;
+}
+
+span {
+    margin: 6px 6px 7px 1px;
+}
+
+.panel-heading {
+    color: whitesmoke;
+    background-color: #313332;
+}
+
+.btn-danger,
+.btn-success {
+    float: right;
+}
+
+#newsUrl {
+    float: right;
+    position: relative;
+    bottom: 10px;
+}
